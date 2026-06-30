@@ -2,7 +2,7 @@
 
 A lightweight, native system tray utility designed to monitor the battery levels and status (microphone mute state, connection source, ANC modes) of **JBL Quantum TWS** wireless earbuds on Linux (KDE, GNOME, etc.) when connected via the 2.4GHz wireless USB-C dongle.
 
-![Tray Icon Example](https://raw.githubusercontent.com/plugato/JBL_Baterry_Monitor/main/docs/tray_example.png) *(Optional screenshot reference)*
+Inspiration: https://github.com/plugato/JBL_Baterry_Monitor
 
 ## 🌟 Features
 
@@ -37,7 +37,7 @@ I have provided a complete installation script that handles the udev configurati
 
 ### 1) Clone this repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/jbl-quantum-tws-linux.git
+git clone https://github.com/KAJIKK/jbl-quantum-tws-linux.git
 cd jbl-quantum-tws-linux
 ```
 
