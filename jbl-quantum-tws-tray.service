@@ -1,0 +1,12 @@
+[Unit]
+Description=JBL Quantum TWS Battery & Status System Tray Monitor
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 %h/.local/share/jbl-quantum-tws-linux/jbl_quantum_tws_tray.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
